@@ -18,7 +18,11 @@ public class Main {
             1,0000, -1,0000, 1,0000
         };
         
-        Perceptron perceptron = new Perceptron(0.15, 1000, inputs);
+        Perceptron perceptron = new Perceptron(0.01, 1000, inputs);
+        perceptron.train(desired);
+        perceptron.train(desired);
+        perceptron.train(desired);
+        perceptron.train(desired);
         perceptron.train(desired);
     }
 
